@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{78ffc058-c4e6-4940-8b8f-73ab997edcfb}">
+		<property name="assetPath">
+			<value>Little Samba - Quincas Moreira.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>224</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ae23d4c-d9c3-439d-8e0d-2280d4cf08ac}</destination>
+		</relationship>
+	</object>
+</objects>

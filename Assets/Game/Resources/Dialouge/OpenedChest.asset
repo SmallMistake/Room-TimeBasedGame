@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4591c481fab61348b0f7414e066a9db, type: 3}
+  m_Name: OpenedChest
+  m_EditorClassIdentifier: 
+  nodeLinks:
+  - baseNodeGuid: 9c0a7376-5750-4355-a849-8060a3f4e32e
+    portName: Dialouge Start
+    targetNodeGuid: 3d9feff9-cd46-4921-b39e-35be8b5634ad
+  - baseNodeGuid: f3c10f92-5a84-41b5-b72f-5fc4d7fbdc0a
+    portName: Choice 1
+    targetNodeGuid: 0e1478d4-40ce-4666-90d5-2f7b04b65081
+  - baseNodeGuid: 3d9feff9-cd46-4921-b39e-35be8b5634ad
+    portName: Choice 1
+    targetNodeGuid: f3c10f92-5a84-41b5-b72f-5fc4d7fbdc0a
+  dialougeNodeData:
+  - GUID: f3c10f92-5a84-41b5-b72f-5fc4d7fbdc0a
+    dialougeText: 
+    position: {x: 766.4, y: 172.8}
+  - GUID: 3d9feff9-cd46-4921-b39e-35be8b5634ad
+    dialougeText: You opened the chest!
+    position: {x: 473.6, y: 180.8}
+  - GUID: 0e1478d4-40ce-4666-90d5-2f7b04b65081
+    dialougeText: 
+    position: {x: 169.6, y: -68.8}
+  commentNodeData: []
+  ExposedProperties: []

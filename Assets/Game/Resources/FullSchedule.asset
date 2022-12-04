@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88683638d3fa9b7488314d2ae6c8e466, type: 3}
+  m_Name: FullSchedule
+  m_EditorClassIdentifier: 
+  day:
+  - {fileID: 11400000, guid: 4af181a710f016e45862c6b1f6bd52cf, type: 2}
+  - {fileID: 11400000, guid: f67a44cc317e96248b6cec751b73522e, type: 2}
+  - {fileID: 11400000, guid: ef8c6a5ec39de9a4fb53a2fac2457b42, type: 2}
+  - {fileID: 11400000, guid: c9b867465c9926b44be561bc10bdad2f, type: 2}
+  - {fileID: 11400000, guid: 6d61f28e3d93e7e4ab9b119e0fc50752, type: 2}
+  - {fileID: 11400000, guid: 7df0bccab667ddf478f0767447e8844b, type: 2}
+  - {fileID: 11400000, guid: fc0ba364c5344084aaad5e701bd1a826, type: 2}
