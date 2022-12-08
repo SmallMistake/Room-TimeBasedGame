@@ -6,7 +6,7 @@ using FMODUnity;
 
 public class TimeSection
 {
-    public float lengthInSeconds = 30;//300;
+    public float lengthInSeconds = 300;//300;
     public float startTime = 19 * 3600;// 7PM       //Used to convert from seconds to AM PM
     public float endTime = 24 * 3600; // Midnight
 

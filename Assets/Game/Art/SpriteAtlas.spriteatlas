@@ -51,7 +51,9 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 1143682798, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -2105748474, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
+  - {fileID: 278462649, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 675564639, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1146432224, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -209194033, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
@@ -75,23 +77,15 @@ SpriteAtlas:
   - {fileID: 76328837, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1862087647, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 370101241, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 150268770, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 278462649, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -339153251, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 324181673, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 2059371305, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1630590109, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 749064185, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1015335560, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 892522622, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -1657605807, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 1680846138, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 2054643794, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: -1709524252, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1774318383, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 1988169399, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -2113541622, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 1733381235, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 422479181, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -1424412039, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1195055323, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
@@ -130,11 +124,11 @@ SpriteAtlas:
   - {fileID: 752700989, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 441771963, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 860856658, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
-  - {fileID: 1143682798, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1543324973, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -2016297404, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -523142296, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -1944423970, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
+  - {fileID: 1988169399, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -797973404, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: 1004564500, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
   - {fileID: -102183639, guid: 4d1afd4404f62e84ab6a5397cb5ee305, type: 3}
@@ -217,7 +211,9 @@ SpriteAtlas:
   - {fileID: 375397460, guid: 305b5f18598a7be4684d61f3e9d6d2de, type: 3}
   - {fileID: 879961731, guid: 305b5f18598a7be4684d61f3e9d6d2de, type: 3}
   m_PackedSpriteNamesToIndex:
+  - ChairFacingAway
   - Interior_118
+  - Wardrobe
   - Interior_160
   - Interior_109
   - Interior_108
@@ -241,23 +237,15 @@ SpriteAtlas:
   - Interior_25
   - Interior_39
   - Interior_54
-  - Interior_26
-  - Interior_38
   - Interior_57
-  - Interior_27
-  - Interior_37
   - Interior_56
   - Interior_20
   - Interior_36
   - Interior_21
   - Interior_35
-  - Interior_22
   - Interior_34
-  - Interior_23
   - Interior_33
-  - Interior_32
   - Bed1
-  - Interior_31
   - Bed2
   - Interior_30
   - Bed3
@@ -296,11 +284,11 @@ SpriteAtlas:
   - Interior_149
   - Interior_139
   - Interior_148
-  - Interior_129
   - Interior_128
   - Door 3
   - Door 2
   - Door 1
+  - ComputerStation
   - Door 4
   - Interior_64
   - Interior_65

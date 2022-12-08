@@ -18,6 +18,8 @@ public class InteractableScript : MonoBehaviour
 
     PlayerInventory inventory;
 
+    private bool interactable = true;
+
     private void Start()
     {
         inventory = FindObjectOfType<PlayerInventory>();
@@ -49,7 +51,7 @@ public class InteractableScript : MonoBehaviour
 
     private void Update()
     {
-        if (inRange)
+        if (inRange && interactable)
         {
             switch (interactionMethod)
             {
@@ -75,6 +77,19 @@ public class InteractableScript : MonoBehaviour
     public void OnDestroy()
     {
         if(indicator != null)
+        {
+            indicator.SetVisible(false);
+        }
+    }
+
+    public void setInteractable(bool interactable)
+    {
+        this.interactable = interactable;
+        if (interactable)
+        {
+            indicator.SetVisible(true);
+        }
+        else
         {
             indicator.SetVisible(false);
         }

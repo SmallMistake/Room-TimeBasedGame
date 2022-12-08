@@ -590,48 +590,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interior_22
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e64378c38ab38b94da8053035b1f245b
-      internalID: 1680846138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interior_23
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 785501c4ce11d9946b401e22d35462a6
-      internalID: -1709524252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Interior_24
       rect:
         serializedVersion: 2
@@ -669,48 +627,6 @@ TextureImporter:
       bones: []
       spriteID: 1565c2fc246c6f14abdec25405a75763
       internalID: 76328837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interior_26
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fea306eaaeb96c0488b2689cb73c8ce5
-      internalID: 150268770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interior_27
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98543ac3bb893c44abc4d6255fe48812
-      internalID: 324181673
       vertices: []
       indices: 
       edges: []
@@ -779,34 +695,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interior_31
+      name: ComputerStation
       rect:
         serializedVersion: 2
         x: 0
         y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 466c227813e135a468f76bd884965ffb
-      internalID: 1733381235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interior_32
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 192
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,34 +800,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interior_37
+      name: Wardrobe
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac184c16d91cc8048a164a5969c858d8
-      internalID: 2059371305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interior_38
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 192
-        width: 16
-        height: 16
+        width: 31
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2507,7 +2381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interior_129
+      name: ChairFacingAway
       rect:
         serializedVersion: 2
         x: 0
@@ -3222,7 +3096,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3243,7 +3117,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3266,7 +3140,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Interior_147: 17492331
+      Interior_68: -168552714
       Interior_141: 1517520582
       Interior_3: 1382580185
       Interior_62: 2110559446
@@ -3325,7 +3199,7 @@ TextureImporter:
       Interior_0: 1539077247
       Interior_136: 275066549
       Interior_153: 360750288
-      Interior_32: 1988169399
+      Interior_150: -692391935
       Interior_142: -2013541058
       Interior_148: 860856658
       Interior_114: -1680215727
@@ -3345,11 +3219,11 @@ TextureImporter:
       Interior_74: -1757006092
       Interior_137: 693470924
       Interior_140: 1642275782
-      Interior_150: -692391935
+      Bed1: -2113541622
       Interior_159: 1928727681
       Interior_154: 1923412373
       ShortLamp: 970700619
-      Bed1: -2113541622
+      ComputerStation: 1988169399
       Interior_151: -1620545520
       Door 2: -523142296
       Interior_56: 1630590109
@@ -3377,6 +3251,7 @@ TextureImporter:
       Interior_130: 822490952
       TallLamp: 175362569
       Door 3: -2016297404
+      Wardrobe: 278462649
       Interior_78: -225136126
       Interior_95: 282131877
       Interior_90: -1526556185
@@ -3389,6 +3264,7 @@ TextureImporter:
       Interior_2: -1565826951
       Interior_123: 967812441
       Interior_94: -455120940
+      ChairFacingAway: 1143682798
       Interior_49: 1145090159
       Bed3: 1195055323
       Interior_69: 1735227243
@@ -3406,7 +3282,6 @@ TextureImporter:
       Interior_120: -984021615
       Interior_110: -1501718662
       Interior_155: 1617030909
-      Interior_38: 278462649
       Interior_42: -1934975975
       Interior_144: 1642869271
       Interior_111: 1270984677
@@ -3421,16 +3296,15 @@ TextureImporter:
       Interior_60: 1761571701
       Interior_18: 63163826
       Interior_98: -1061809144
-      Interior_129: 1143682798
       Interior_106: 436583740
       Interior_122: -102124628
       Interior_15: -2092313878
       Interior_61: 974675717
-      Interior_89: -1047874108
-      Interior_84: -1200501227
-      Interior_67: -429458948
       Interior_43: 976645138
-      Interior_68: -168552714
+      Interior_89: -1047874108
+      Interior_67: -429458948
+      Interior_147: 17492331
+      Interior_84: -1200501227
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

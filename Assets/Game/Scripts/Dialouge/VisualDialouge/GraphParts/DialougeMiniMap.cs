@@ -1,3 +1,6 @@
+
+#if UNITY_EDITOR
+
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -22,3 +25,5 @@ namespace VisualDialougeTree
         }
     }
 }
+
+#endif

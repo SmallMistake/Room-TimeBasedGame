@@ -1,23 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
+using SaveSystem;
 using UnityEngine;
 
 public class TimelineController : MonoBehaviour
 {
 
     private float spacingInterval = 250f;
-    public DayController dayController;
     public GameObject timeline;
-    // Start is called before the first frame update
-    void Start()
-    {
-        float startingAmount = dayController.currentIndex * spacingInterval;
-        timeline.transform.localPosition -= new Vector3(startingAmount, 0, 0);
-    }
+    internal ProgressManager progressManager;
 
-    // Update is called once per frame
-    void Update()
+    // Start is called before the first frame update
+    void Awake()
     {
-        
+        progressManager = GameObject.FindGameObjectWithTag("SaveSystem").GetComponent<ProgressManager>();
+        float startingAmount = progressManager.cachedProgress.currentDay * spacingInterval;
+        timeline.transform.localPosition -= new Vector3(startingAmount, 0, 0);
     }
 }

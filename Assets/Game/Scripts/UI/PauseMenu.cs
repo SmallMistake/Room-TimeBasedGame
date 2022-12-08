@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -37,5 +38,10 @@ public class PauseMenu : MonoBehaviour
             Time.timeScale = 1;
             pauseMenu.SetActive(false);
         }
+    }
+
+    public void quiteToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

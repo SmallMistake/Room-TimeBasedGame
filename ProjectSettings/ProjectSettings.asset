@@ -12,11 +12,11 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Top Down Engine Demo
+  companyName: IntronDigital
+  productName: RoomBasedTimeGame
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 1, g: 0.23529412, b: 0, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.3372549, g: 0.3529412, b: 0.45882353, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 0
@@ -136,7 +136,7 @@ PlayerSettings:
     16:10: 0
     16:9: 1
     Others: 0
-  bundleVersion: 1.9
+  bundleVersion: 0.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -158,7 +158,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.moremountains.topdownengine
-    Standalone: com.DefaultCompany.Top-Down-Engine-Demo
+    Standalone: com.IntronDigital.RoomBasedTimeGame
     Tizen: com.Company.ProductName
     iPhone: com.moremountains.topdownengine
     tvOS: com.Company.ProductName
@@ -279,7 +279,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: a7adf48d4c8aa994cbdb33b10ecd5073, type: 3}
+      m_Icon: {fileID: 2800000, guid: aaaa4436e0520b64b90ed9c60f00d77b, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
